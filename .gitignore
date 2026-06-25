@@ -1,0 +1,48 @@
+# Compiled C++ Objects and Executables
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dylib
+*.exe
+*.dll
+
+# Verilator / VCS / ModelSim simulation outputs
+obj_dir/
+csrc/
+simv
+simv.daidir/
+sim_build/
+*.vcd
+*.fsdb
+*.vpd
+*.key
+*.log
+*.jou
+*.wdb
+*.pb
+*.log
+compile.tcl
+xsim.dir/
+webtalk*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python / Scripts
+__pycache__/
+*.pyc
+
+# Local Handoff & Waveform Verification Guides
+GEMINI.md
+waveform_verification_guide.md
+start_here.md
+
